@@ -42,6 +42,7 @@ public class Deck {
 		while (!aux.isEmpty()) {
 			deck.push(aux.pop());
 		}
+		deck.push(alvo);
 		return alvo;
 	}
 
